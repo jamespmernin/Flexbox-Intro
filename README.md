@@ -1,12 +1,4 @@
----
-title: Responsive Design & Flexbox
-type: lesson
-duration: "2:30"
-creator:
-    name: J Silverstein
-    city: NYC
-competencies: CSS
----
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  WEB DEVELOPMENT IMMERSIVE
 
 # Responsive Design & Flexbox!!
 
