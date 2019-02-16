@@ -31,13 +31,7 @@ A webpage has no fixed dimensions. It extends potentially infinitely in every di
 
 > An edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole. (from [The Web's Grain](https://www.frankchimero.com/writing/the-webs-grain/) by Frank Chimero)
 
-Here's a visual to help us understand that concept a little more:
-
-![moment](./assets/moment.jpg)
-
-> Mona Lisa is like when you design for print, whereas the other artwork is much more like designing for web. You can imagine that if the elements in the other artwork were rearranged, the artwork itself would still be a readable whole.
-
-### Breakpoints or points of reassembly?? 🤔
+### Breakpoints
 
 Consider the common media query:
 
@@ -47,7 +41,9 @@ Consider the common media query:
 }
 ```
 
-Cool. So that's a media query for desktop view, for when the screen is larger than 1025px. We've put it there because our mobile design starts looking weird at that size.
+`@media screen` — The browser identifies itself as being in the “screen” category. This roughly means the browser considers itself as a "desktop" — as opposed to e.g. an older mobile phone browser (note that the iPhone, and other smartphone browsers, do identify themselves as being in the screen category), or a screenreader — and that it’s displaying the page on-screen, rather than printing it.
+
+`(min-width: 1025px)` this will apply for when the screen is larger than 1025px. We've put it there because our mobile design starts looking weird at that size.
 
 So far, we've been calling these breakpoints. And you should be calling them breakpoints, because that's the industry standard term. But I find it more useful to think about these as "points of reassembly". 
 
