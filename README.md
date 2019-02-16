@@ -45,7 +45,7 @@ Consider the common media query:
 
 `(min-width: 1025px)` this will apply for when the screen is larger than 1025px. We've put it there because our mobile design starts looking weird at that size.
 
-So far, we've been calling these breakpoints. And you should be calling them breakpoints, because that's the industry standard term. But I find it more useful to think about these as "points of reassembly". 
+So far, we've been calling these breakpoints. And you should be calling them breakpoints, because that's the industry standard term.
 
 Consider the definition of a page again:
 
