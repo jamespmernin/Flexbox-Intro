@@ -23,7 +23,7 @@ Designing for screen is inherently different from designing for print, because o
 
 > Example of flux: sortable spreadsheets etc
 
-Originally web designers used to design for web the way they designed for print, which is why tables were such a big deal in the '90s and early '00s. And when screens were all more or less the same size, that was fine. But as soon as people started looking at the web on screens different sizes, things started breaking. It became clear that the way one thinks about designing for screen needed to change.
+Originally web designers used to design for the web the way they designed for print, which is why tables were such a big deal in the '90s and early '00s. And when screens were all more or less the same size, that was fine. But as soon as people started looking at the web on screens different sizes, things started breaking. It became clear that the way one thinks about designing for screen needed to change.
 
 > What shape is a screen? It's not really a shape.
 
