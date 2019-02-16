@@ -17,10 +17,6 @@ The term "responsive web design" was coined by Ethan Marcotte (a super cool guy 
 
 > Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. (From [Smashing Magazine](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/))
 
-We've been doing this a little bit already! We've been using media queries to change how pages look between desktop and mobile. And by and large, this is what interviewers and job postings mean when they say "responsive design". But we're going to go a little bit deeper into the rabbit hole...
-
-> Discuss the difference between responsive & adaptive design
-
 ### What is a screen? What is a webpage?
 
 Designing for screen is inherently different from designing for print, because of a concept that Frank Chimero (another super cool guy) calls "flux". Flux just refers for the ability for mutability -- the ability to change. By and large, print design doesn't have this, while it's natural and essential for the concept of the screen.
