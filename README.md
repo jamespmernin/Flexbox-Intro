@@ -45,20 +45,6 @@ Consider the common media query:
 
 `(min-width: 1025px)` this will apply for when the screen is larger than 1025px. We've put it there because our mobile design starts looking weird at that size.
 
-So far, we've been calling these breakpoints. And you should be calling them breakpoints, because that's the industry standard term.
-
-Consider the definition of a page again:
-
-> An edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole. (from [The Web's Grain](https://www.frankchimero.com/writing/the-webs-grain/) by Frank Chimero)
-
-When we switch the screen from a desktop view from a mobile view, the elements aren't _breaking_. They're divs and spans and so on. They're immaterial. They can't break. They're _reassembling_.
-
-The point of responsive design is to manage that reassembly in a way that benefits the user.
-
-#### Adaptive design is _how_ you would change a page. Responsive design deals much more with _why_.
-
-Nobody goes to a website to _use the website_. They go to the website to get information, perform a task, play a game, etc. (Remember writing user stories?) The easier we make that task for the user, the more likely the user is to stay on the page. 
-
 #### The job of a designer or developer is to structure a page so that at any given moment, no matter the size of the screen or the device of the user, the user is seeing precisely the information they need most.
 
 ### Why are we talking about design?!? This is a development course!
