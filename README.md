@@ -11,7 +11,7 @@
 - Describe the difference between the main axis and the cross axis
 - Use flexbox to solve common design problems without using hacks
 
-# What is responsive design? (35min)
+# What is responsive design?
 
 The term "responsive web design" was coined by Ethan Marcotte (a super cool guy all around) back in 2010. It immediately caught on, and it's been around ever since.
 
@@ -89,24 +89,22 @@ The concept of design -- and of designing responsively -- isn't just exclusive t
 
 There are a number of common responsive web design problems. Frank Chimero goes over one in his article -- a picture and text next to each other with a changing screen size. We'll walk through a solution to that problem at the end of the lecture. In the meantime, [here's a link](https://bradfrost.github.io/this-is-responsive/patterns.html) to a site with a number of other common problems and solutions -- I recommend taking a look through it.
 
-### Break (10min)
+# Intro to flexbox!
 
-# Intro to flexbox! (30min)
-
-### What is flexbox? (2min)
+### What is flexbox?
 
 Flexbox is short for "The CSS3 Flexible Box Module". From [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes), here's a definiton:
 
 > Flexbox ... is a layout mode providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices. ... The defining aspect of the flex layout is the ability to alter its items' width and/or height to best fit in the available space on any display device.
 
-### Flex context vs block context (3min)
+### Flex context vs block context
 
 - Up to this point we've been working with the block context -- `display: block;`. This means that in order to position things, we needed to float them, use clearfix, etc.
 - Flexbox introduces a new context: `display: flex;`.
 - Elements with `display: flex;` have, largely, an external block context -- they exist in the document flow like any other kind of element.
 - Internally, they create a new type of context that has its own properties.
 
-## Flex containers and flex items (15min)
+## Flex containers and flex items
 
 ### A flex _container_ is an element that creates a flex context.
 
@@ -201,11 +199,11 @@ A lot of the power in flexbox comes from the ability to switch which axis is whi
   <dd>This allows the default alignment (as set by <code>align-items</code>) to be overridden for individual items.</dd>
 </dl>
 
-## 🚀 Lab 1: [Flexbox Froggy](http://flexboxfroggy.com/)! 🐸 (30min)
+## 🚀 Lab 1: [Flexbox Froggy](http://flexboxfroggy.com/)! 🐸
 
 For this lab, you'll be getting more acquainted with the flex properties, and applying them to flex items and flex containers. Hit the link above and start helping the frogs find their lilypads! (Feel free to work in pairs or groups!!)
 
-# Why use flexbox? (20min)
+# Why use flexbox?
 
 As you may have noticed, ***flexbox is literally magic***. Problems that take hours of messing with floats, positions, and so on, are solved in minutes. And responsiveness is a dream -- just change the `flex-direction` between mobile and desktop and you're all set.
 
