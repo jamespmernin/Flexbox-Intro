@@ -100,20 +100,6 @@ The flex context works a little differently from the ordinary block context that
 
 ### A flex _item_ is an element that exists within a flex context.
 
-#### Keep following along in ✨ [this codepen!](https://codepen.io/jlr7245/pen/rmxKgL?editors=1100) ✨
-
-From the [W3 Specification](https://www.w3.org/TR/css-flexbox-1/#flex-items): 
-
-> Each in-flow child of a flex container becomes a flex item, and each contiguous run of text that is directly contained inside a flex container is wrapped in an anonymous flex item. 
-
-### Nesting flex contexts within flex contexts (flexception....?? )
-
-#### Follow along in ✨ [this new codepen!](https://codepen.io/jlr7245/pen/pPgZwb?editors=1100) ✨
-
-From the [W3 Specification](https://www.w3.org/TR/css-flexbox-1/#flex-items): 
-
-> A flex item establishes a new formatting context for its contents. The type of this formatting context is determined by its display value, as usual. However, flex items themselves are flex-level boxes, not block-level boxes: they participate in their container’s flex formatting context, not in a block formatting context.
-
 ## Flex Properties and Axes (axises? axes?) (10min)
 
 There's a long list of CSS properties that are specific to either flex containers or flex items. We'll go through a few of them, and then you'll get practice with the rest during lab.
