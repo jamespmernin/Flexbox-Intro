@@ -86,7 +86,7 @@ Flexbox is short for "The CSS3 Flexible Box Module". From [MDN](https://develope
 
 ### A flex _container_ is an element that creates a flex context.
 
-#### Follow along in ✨ [this codepen!](https://codepen.io/jlr7245/pen/rmxKgL?editors=1100) ✨
+#### Follow along in ✨ [this codepen!](https://codepen.io/brunopgalvao/pen/oJjxmJ?editors=1100) ✨
 
 From the [W3 Specification](https://www.w3.org/TR/css-flexbox-1/#flex-containers): 
 
@@ -100,11 +100,9 @@ The flex context works a little differently from the ordinary block context that
 
 ### A flex _item_ is an element that exists within a flex context.
 
-## Flex Properties and Axes (axises? axes?) (10min)
+## Flex Properties and Axes
 
 There's a long list of CSS properties that are specific to either flex containers or flex items. We'll go through a few of them, and then you'll get practice with the rest during lab.
-
-#### Follow along in ✨ [this codepen!](https://codepen.io/jlr7245/pen/MmKqxz?editors=1100) ✨
 
 ### Main Axis, Cross Axis
 
@@ -163,7 +161,7 @@ A lot of the power in flexbox comes from the ability to switch which axis is whi
   <dd>This allows the default alignment (as set by <code>align-items</code>) to be overridden for individual items.</dd>
 </dl>
 
-## 🚀 Lab 1: [Flexbox Froggy](http://flexboxfroggy.com/)! 🐸
+## 🚀 Practice: [Flexbox Froggy](http://flexboxfroggy.com)! 🐸
 
 For this lab, you'll be getting more acquainted with the flex properties, and applying them to flex items and flex containers. Hit the link above and start helping the frogs find their lilypads! (Feel free to work in pairs or groups!!)
 
@@ -257,7 +255,7 @@ aside {
 ```
 </details>
 
-#### But J! How would you do this without flexbox!
+#### How would you do this without flexbox!
 
 I thought about walking through the flexboxless solution for the Holy Grail layout. But the fix without flexbox is so genuinely awful and contains so many practices that I'd like to avoid that it's really not worth even presenting. 
 
@@ -282,7 +280,7 @@ footer {
 
 Yikes!!!!!!
 
-## 🚀 Lab 2: Practice practice practice! (30min)
+## 🚀 Practice practice practice!
 
 In the `flexbox-lab` directory of this repo, you'll find an `index.html` and a `style.css`. Using flexbox properties, get the `index.html` to look like this image, both on mobile widths and desktop widths:
 
