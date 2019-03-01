@@ -86,7 +86,7 @@ Flexbox is short for "The CSS3 Flexible Box Module". From [MDN](https://develope
 
 ### A flex _container_ is an element that creates a flex context.
 
-#### Follow along in ✨ [this codepen!](https://codepen.io/brunopgalvao/pen/oJjxmJ?editors=1100) ✨
+#### Follow along in ✨ [this codepen!](https://codepen.io/brunopgalvao/pen/gEPBEz) ✨
 
 From the [W3 Specification](https://www.w3.org/TR/css-flexbox-1/#flex-containers): 
 
