@@ -171,7 +171,7 @@ As you may have noticed, ***flexbox is literally magic***. Problems that take ho
 
 There are a number of classic web design problems that once took odd CSS hacks and patches to fix, but are now a breeze with flexbox. Let's walk through one of them together.
 
-### 🏆 The Holy Grail
+### 🏆 [The Holy Grail](https://codepen.io/brunopgalvao/pen/EMPBoX)
 
 You've seen the Holy Grail layout about a billion times. It looks like this:
 
