@@ -1,71 +1,13 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SOFTWARE ENGINEERING IMMERSIVE
 
-# Responsive Design & Flexbox
+# Flexbox
 
 ### Learning Objectives
-- Describe responsive design
-- Understand the differences between adaptive techniques and responsive design patterns
 - Define the flexible box module (flexbox!)
 - Give an example of a problem solved by flexbox
 - Contrast flex containers and flex items
 - Describe the difference between the main axis and the cross axis
 - Use flexbox to solve common design problems without using hacks
-
-# What is responsive design?
-
-The term "responsive web design" was coined by Ethan Marcotte (a super cool guy all around) back in 2010. It immediately caught on, and it's been around ever since.
-
-> Responsive web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. (From [Smashing Magazine](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/))
-
-### What is a screen? What is a webpage?
-
-Designing for screen is inherently different from designing for print, because of a concept that Frank Chimero (another super cool guy) calls "flux". Flux just refers for the ability for mutability -- the ability to change. By and large, print design doesn't have this, while it's natural and essential for the concept of the screen.
-
-> Example of flux: sortable spreadsheets etc
-
-Originally web designers used to design for the web the way they designed for print, which is why tables were such a big deal in the '90s and early '00s. And when screens were all more or less the same size, that was fine. But as soon as people started looking at the web on screens different sizes, things started breaking. It became clear that the way one thinks about designing for screen needed to change.
-
-> What shape is a screen? It's not really a shape.
-
-A webpage has no fixed dimensions. It extends potentially infinitely in every direction. Consider this definition of a webpage:
-
-> An edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole. (from [The Web's Grain](https://www.frankchimero.com/writing/the-webs-grain/) by Frank Chimero)
-
-### Breakpoints
-
-Consider the common media query:
-
-```css
-@media screen and (min-width: 1025px) {
-  /* stuff goes here */
-}
-```
-
-`@media screen` — The browser identifies itself as being in the “screen” category. This roughly means the browser considers itself as a "desktop" — as opposed to e.g. an older mobile phone browser (note that the iPhone, and other smartphone browsers, do identify themselves as being in the screen category), or a screenreader — and that it’s displaying the page on-screen, rather than printing it.
-
-`(min-width: 1025px)` this will apply for when the screen is larger than 1025px. We've put it there because our mobile design starts looking weird at that size.
-
-#### The job of a designer or developer is to structure a page so that at any given moment, no matter the size of the screen or the device of the user, the user is seeing precisely the information they need most.
-
-### Why are we talking about design?!? This is a development course!
-
-You are all designers.
-
-Let's say that again:
-
-#### _You are all designers._
-
-Every one of you has designed an amazing game. But that's just scratching the surface of what design is, and what makes all of you designers. 
-
-#### Design is approaching a problem with a creative lens in order to find a beautiful solution.
-
-The concept of design -- and of designing responsively -- isn't just exclusive to considerations of visual design. It's about how you approach a problem: considering the _how_ of solving the problem as well as the _why_ of your approach. Thinking about your JavaScript in this way will help make you a better programmer, which is the real takeaway of this delve into responsive design.
-
-> What have you designed recently?
-
-### Common responsive design patterns
-
-There are a number of common responsive web design problems. Frank Chimero goes over one in his article -- a picture and text next to each other with a changing screen size. We'll walk through a solution to that problem at the end of the lecture. In the meantime, [here's a link](https://bradfrost.github.io/this-is-responsive/patterns.html) to a site with a number of other common problems and solutions -- I recommend taking a look through it.
 
 # Intro to flexbox!
 
