@@ -87,6 +87,8 @@ A lot of the power in flexbox comes from the ability to switch which axis is whi
   <dt><code>order</code></dt>
   <dd>The order in which you want flex items to appear along the main access. The default is 0. Negative numbers are allowed.</dd>
   
+  Try it on [Codepen](https://codepen.io/brunopgalvao/pen/RzEgJy)
+  
   <dt><code>flex-grow</code></dt>
   <dd>Defines the proportion of the space in the container that the flex item will take up. For ex, if all flex items in a flex container have a <code>flex-grow</code> property of 1, they will all take up equal width. If one of the children has <code>flex-grow: 2;</code>, it will be twice as wide as the others.</dd>
   
