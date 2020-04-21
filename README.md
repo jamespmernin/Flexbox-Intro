@@ -87,8 +87,6 @@ A lot of the power in flexbox comes from the ability to switch which axis is whi
   <dt><code>order</code></dt>
   <dd>The order in which you want flex items to appear along the main access. The default is 0. Negative numbers are allowed.</dd>
   
-  Try it on [Codepen](https://codepen.io/brunopgalvao/pen/RzEgJy)
-  
   <dt><code>flex-grow</code></dt>
   <dd>Defines the proportion of the space in the container that the flex item will take up. For ex, if all flex items in a flex container have a <code>flex-grow</code> property of 1, they will all take up equal width. If one of the children has <code>flex-grow: 2;</code>, it will be twice as wide as the others.</dd>
   
@@ -198,31 +196,6 @@ aside {
 }
 ```
 </details>
-
-#### How would you do this without flexbox!
-
-I thought about walking through the flexboxless solution for the Holy Grail layout. But the fix without flexbox is so genuinely awful and contains so many practices that I'd like to avoid that it's really not worth even presenting. 
-
-And there's one element of the problem the way I've presented it -- "5. Has a footer that reaches at least the bottom of the browser window no matter the height of the content without using absolute or fixed positioning" -- that might actually be impossible without flexbox.
-
-If you're interested in the equal-height-columns problem, which is a classic CSS problem that I've had to use JavaScript to solve in the past (not ideal!), check out [this extremely ancient article](http://www.positioniseverything.net/articles/onetruelayout/equalheight) from 2005.
-
-And here's a quick snippet of part of the flexboxless solution for Holy Grail:
-
-```css
-main {
-  overflow: hidden;
-}
-main aside, main article {
-  padding-bottom: 20010px;  
-  margin-bottom: -20000px;  
-}
-footer {
-  position: relative;
-}
-```
-
-Yikes!!!!!!
 
 ## 🚀 Practice practice practice!
 
