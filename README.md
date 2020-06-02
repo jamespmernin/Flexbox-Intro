@@ -146,7 +146,7 @@ We're going to be working from this HTML:
 ```
 
 <details>
-<summary>Here's the CSS solution. Don't peek!!! We'll walk through it together. But I wanted you to have it in case you want to come back to it later.</summary>
+<summary>Let's walk through it together step by step.</summary>
 
 ```css
 body {
