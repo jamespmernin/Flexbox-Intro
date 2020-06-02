@@ -205,7 +205,7 @@ In the `flexbox-lab` directory of this repo, you'll find an `index.html` and a `
 
 There's a little bit of starter CSS provided.
 
-Here's the lab solutions for each step. **ONLY LOOK AT THESE IF YOU ARE WELL AND TRULY STUCK!!!** And ***DO NOT*** copy and paste!!!! Add each property one at a time and see how the page changes! 
+Here's the lab solutions for each step. If you get stuck, feel free to walk through each property one at a time and see how the page changes! 
 
 <details>
   <summary>Body</summary>
