@@ -146,7 +146,7 @@ We're going to be working from this HTML:
 ```
 
 <details>
-<summary>Here's the CSS solution. Don't peek!!! We'll walk through it together. But I wanted you to have it in case you want to come back to it later.</summary>
+<summary>Let's walk through it together step by step.</summary>
 
 ```css
 body {
@@ -205,7 +205,7 @@ In the `flexbox-lab` directory of this repo, you'll find an `index.html` and a `
 
 There's a little bit of starter CSS provided.
 
-Here's the lab solutions for each step. **ONLY LOOK AT THESE IF YOU ARE WELL AND TRULY STUCK!!!** And ***DO NOT*** copy and paste!!!! Add each property one at a time and see how the page changes! 
+Here's the lab solutions for each step. If you get stuck, feel free to walk through each property one at a time and see how the page changes! 
 
 <details>
   <summary>Body</summary>
