@@ -64,7 +64,7 @@ A lot of the power in flexbox comes from the ability to switch which axis is whi
   <dd><code>flex-direction</code> establishes which axis is the main axis and which is the cross axis. The possible values are <code>row</code>, <code>row-reverse</code>, <code>column</code>, and <code>column-reverse</code>. The behavior of other properties are dependent on <code>flex-direction</code>.</dd>
   
   <dt><code>flex-wrap</code></dt>
-  <dd>By default, flex items all try to fit into one line. <code>flex-wrap</code> changes this behavior, allowing items to wrap to new lines. The possible values are <code>nowrap</code>, <code>wrap</code>, <code>wrap-reverse</code>.</dd>
+  <dd>By default, flex items all try to fit into one line with the default <code>nowrap</code>. <code>flex-wrap</code> changes this behavior, allowing items to wrap to new lines. The other possible values are <code>wrap</code> and <code>wrap-reverse</code>.</dd>
   
   <dt><code>flex-flow</code></dt>
   <dd>A shorthand property for <code>flex-direction</code> and <code>flex-wrap</code>. The default value is <code>row nowrap</code>. There's a bunch of different possible values -- essentially, pick one <code>flex-direction</code> value and one <code>flex-wrap</code> value and combine them.</dd>
